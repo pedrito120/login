@@ -11,7 +11,6 @@ export class AuthGuard implements CanActivate {
   canActivate() {
     // If the user is not logged in we'll send them back to the home page
     const token = this.tokenService.getToken(); 
-    console.log(token);
     if (!token) {
         console.log('No estás logueado');
         this.router.navigate(['login']);
