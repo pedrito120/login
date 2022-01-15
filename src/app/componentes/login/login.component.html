@@ -1,0 +1,16 @@
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Login Form -->
+      <h1>Login</h1>
+      <form (ngSubmit)="login()" #Mylogin="ngForm">
+        <input type="text" name="user" required id="user"
+        [(ngModel)]="register.user" class="fadeIn second" placeholder="User">
+  
+        <input type="password" name="password" required id="password"
+        [(ngModel)]="register.password"  class="fadeIn third" placeholder="password">
+  
+        <input type="submit" [disabled]="Mylogin.invalid" class="fadeIn fourth" value="Log In">
+      </form>
+    </div>
+  </div>

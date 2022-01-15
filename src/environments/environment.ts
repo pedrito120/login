@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_URL: 'https://dev.api.ifscore.biz/expediente/auth/2.1.0/multiplica/app',
 };
 
 /*

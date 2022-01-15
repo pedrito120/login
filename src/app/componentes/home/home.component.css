@@ -1,0 +1,54 @@
+#one {
+  background: #00d0ff;
+  height: 450px;
+  width: 74%;
+  float: right;
+  margin: 5px;
+}
+#one:hover {
+    background: rgb(0, 81, 255); 
+}
+#two {
+  background: #e5ff00;
+  height: 900px;
+  width: 24%;
+  float: left;
+  margin: 5px;
+}
+#two:hover {
+    background: rgb(144, 175, 58); 
+}
+#three {
+  background: hsl(145, 50%, 23%);
+  height: 450px;
+  width: 74%;
+  float: right;
+  margin: 5px;
+}
+#three:hover {
+    background: rgb(114, 201, 103); 
+}
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+  #one {
+    height: 300px;
+    width: 100%;
+    float: right;
+    margin-bottom: 5px;
+  }
+
+  #two {
+    height: 300px;
+    width: 100%;
+    float: right;
+    margin-bottom: 5px;
+  }
+
+  #three {
+    height: 300px;
+    width: 100%;
+    float: right;
+    margin-bottom: 5px;
+  }
+}
+
