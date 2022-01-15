@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.service.refreshToken().subscribe(res => {
         console.log(res.jwt); 
       });
-    }, 3000);
+    }, 30000);
   }
   activityUser() {
     const idle = new Idle()
